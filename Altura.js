@@ -7,7 +7,7 @@ var alturaMenor;
 var soma = 0;
 
 
-for (var i = 0; i < 2; i++) {
+for (var i = 0; i < 15; i++) {
     altura = (parseFloat(prompt("Digite sua altura")));
     sexo = prompt("Digite seu sexo m/f");
     if(i==0){
@@ -30,7 +30,7 @@ for (var i = 0; i < 2; i++) {
     
 }
 var media = soma/qntHomens
-console.log("Altura maior: "+alturaMaior)
-console.log("altura menor: "+alturaMenor)
-console.log("quantidade mulheres: "+qntMulheres)
-console.log("media alltura homens: "+media)
+console.log("Altura maior: "+ alturaMaior)
+console.log("altura menor: "+ alturaMenor)
+console.log("Quantidade mulheres: "+ qntMulheres)
+console.log("Media alltura homens: "+ media)
